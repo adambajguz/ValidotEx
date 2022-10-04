@@ -1,9 +1,8 @@
-﻿namespace Validot.AspNetCore
+﻿namespace Validot.AspNetCore.Internal
 {
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.ModelBinding;
     using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-    using Validot.AspNetCore.Internal;
 
     internal class ValidotObjectModelValidator : ObjectModelValidator
     {
